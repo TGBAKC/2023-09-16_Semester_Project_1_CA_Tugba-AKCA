@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visit Page - Community Sciences Museum</title>
+        <meta name="description" content="Explore visiting hours, admission details, and more at the Community Sciences Museum. Plan your visit today and discover a world of knowledge and science.">
+        <meta name="keywords" content="Community Sciences Museum, visit, hours, admission, location, science, knowledge">
+        <meta name="author" content="Community Sciences">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+<body class="visit-body">
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Community Science Museum</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="visit.html" class="nav-links">Visit</a>
+                </li>
+                <li>
+                    <a href="exhibitions.html" class="nav-links">Exhibitions</a>
+                </li>
+                <li>
+                    <a href="explore.html" class="nav-links">Explore</a>
+                </li>
+                <li>
+                    <a href="events.html" class="nav-links">Events</a>
+                </li>
+                <li>
+                    <a href="getinvolved.html" class="nav-links">Get Involved</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let isMenuOpen = false;
+
+        navBarToggle.addEventListener('click', function () {
+            isMenuOpen = !isMenuOpen;
+
+            if (isMenuOpen) {
+                mainNav.classList.add('active');
+            } else {
+                mainNav.classList.remove('active');
+            }
+        });
+
+        window.addEventListener('resize', function () {
+            if (window.innerWidth >= 768) {
+                mainNav.classList.remove('active');
+            }
+        });
+    </script>
+
+    <div class="header-container">
+        <div class="header-text">
+            <h1 class="visit-museum">Visit Museum</h1>
+        </div> 
+    </div>
+    
+    <div class="image-container-visit">
+        <img src="images/scott-webb-102825.jpg" alt="visit-museum">
+    </div>
+
+    <main>
+        <div class="row-visit">
+            <article class="box-visit">
+                <h2>Hours</h2>
+                <hr>
+                <div class="hours">
+                    <ul>
+                        <li>Monday:</li>
+                        <li>Tuesday:</li>
+                        <li>Wednesday:</li>
+                        <li>Thursday:</li>
+                        <li>Friday:</li>
+                        <li>Saturday:</li>
+                        <li>Sunday:</li>
+                    </ul>
+
+                    <ul>
+                        <li>Closed</li>
+                        <li>10:00 AM - 4:00 PM</li>
+                        <li>10:00 AM - 4:00 PM</li>
+                        <li>10:00 AM - 4:00 PM</li>
+                        <li>10:00 AM - 7:00 PM</li>
+                        <li>9:00 AM - 4:00 PM</li>
+                        <li>9:00 AM - 1:00 PM</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="box-visit">
+                <h2>Admission</h2>
+                <hr>
+                <p>The entrance is <strong>free</strong> for all.</p>
+                <p>Guided tours of the museum are available every hour for 70 NOK per person, which includes a printed guide.</p>
+                <p>If you'd like to organize a guided tour for a group of 6 or more people, please contact us to arrange it.</p>
+            </article>
+
+            <article class="box-visit">
+                <h2>Location</h2>
+                <hr>
+                <address>
+                    <ul>
+                        <li><i class="fas fa-home"></i> Kvalsberget, Stavanger, Norway</li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:hi@csm.com">hi@csm.com</a></li>
+                        <li><i class="fas fa-phone"></i> 700 77 555</li>
+                    </ul>
+                </address>
+                <p>The Community Science Museum is located at Kvaslberget, Stavanger, near a Primary School, a Secondary School, and a High School, close to the city center.</p>
+            </article>
+
+            <div class="row-image">
+                <img src="images/bollebar.jpg" alt="snack">
+            </div>
+
+            <article class="box-visit">
+                <h2>Accessibility</h2>
+                <hr>
+                <p>The museum is wheelchair accessible and provides audio guides and braille display signs for the visually impaired.</p>
+            </article>
+
+            <article class="box-visit center">
+                <h2>Food and Drink</h2>
+                <hr>
+                <p>There is a café attached to the museum where you can enjoy light lunches, soft drinks, coffee, snacks, and more.</p>
+            </article>
+
+            <article class="box-visit">
+                <h2>Shop</h2>
+                <hr>
+                <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue exploring science even after your visit.</p>
+            </article>
+        </div>
+    </main>
+
+    <div class="ground">
+        <h1>COMMUNITY SCIENCES MUSEUM</h1>
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="logo"> <p>SCIENCES MUSEUM</p></div>
+            <div class="social_media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>Sciences Museum © 2023 All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

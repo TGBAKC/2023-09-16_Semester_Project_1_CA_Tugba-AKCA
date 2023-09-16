@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore page - Community Science Museum</title>
+    <meta name="description" content="Community Sciences Museum - Explore page. Discover what's here for kids, teachers, and researchers.">
+    <meta name="keywords" content="Community Sciences Museum, Explore, Kids, Teachers, Researchers">
+    <meta name="author" content="Community Sciences">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body class="explore-body">
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Community Science Museum</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="visit.html" class="nav-links">Visit</a>
+                </li>
+                <li>
+                    <a href="exhibitions.html" class="nav-links">Exhibitions</a>
+                </li>
+                <li>
+                    <a href="explore.html" class="nav-links">Explore</a>
+                </li>
+                <li>
+                    <a href="Events.html" class="nav-links">Events</a>
+                </li>
+                <li>
+                    <a href="getinvolved.html" class="nav-links">Get Involved</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let isMenuOpen = false;
+
+        navBarToggle.addEventListener('click', function () {
+            isMenuOpen = !isMenuOpen;
+
+            if (isMenuOpen) {
+                mainNav.classList.add('active');
+            } else {
+                mainNav.classList.remove('active');
+            }
+        });
+
+        window.addEventListener('resize', function () {
+            if (window.innerWidth >= 768) {
+                mainNav.classList.remove('active');
+            }
+        });
+    </script>
+    <main>
+        <div class="banner">
+            <h1>What's Here?<br><br>EXPLORE</h1>
+        </div>
+        <div class="give-sections">
+            <section class="give-section-kids">
+                <div class="section-wrapper">
+                    <div class="section-text">
+                        <h2>For Kids</h2>
+                        <p>
+                            Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
+                            You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+                            We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.
+                            During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
+                        </p>
+                        <a href="#" class="btn-primary-kids">Read More</a>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/boy.jpg" alt="Kids with vr">
+                    </div>
+                </div>
+            </section>
+            <section class="give-section-teachers">
+                <div class="section-wrapper">
+                    <div class="section-text">
+                        <h2>For Teachers</h2>
+                        <p>
+                            As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team is on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.
+                            Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.
+                        </p>
+                        <a href="#" class="btn-primary-teachers">Read More</a>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/EDUCATION.jpeg" alt="Children in learning">
+                    </div>
+                </div>
+            </section>
+        <section class="give-section-researches">
+                <div class="section-wrapper">
+                    <div class="section-text">
+                        <h2>For Researchers</h2>
+                        <p>
+                            Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country.
+                        </p>
+                        <a href="#" class="btn-primary-researches">Read More</a>
+                    </div>
+                    <div class="section-image">
+                        <img src="images/people-219985_1280.jpg" alt="Man with microscop">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="ground">
+            <h2>COMMUNITY SCIENCES MUSEUM</h2>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="logo">
+                <p>SCIENCES MUSEUM</p>
+            </div>
+            <div class="social_media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>Sciences Museum © 2023 All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
