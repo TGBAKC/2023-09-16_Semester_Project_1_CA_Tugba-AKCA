@@ -33,4 +33,5 @@ Build with:
 .CSS
 
 .JAVASCRIPT
+<span style="color: red;">Bu metin kırmızı olacak.</span>
 
