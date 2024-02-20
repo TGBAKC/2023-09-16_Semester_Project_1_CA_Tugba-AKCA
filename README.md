@@ -30,7 +30,7 @@ ___
 - Get Involved
 
 
-#Build with:#
+**Build with:**
 ___
 
 - HTML
@@ -40,10 +40,10 @@ ___
 - JAVASCRIPT
   
  
-##Getting Started
+**Getting Started**
 ___ 
 
-###Installing
+***Installing***
 
 1.Clone the repo:
 ```bash
@@ -53,14 +53,14 @@ ___
 
 npm install
 
-### Running
+** Running**
 
 To run the app, run the following commands:
 
 ```bash
 npm run start
 ```
-##Contributing
+**Contributing**
 
 If you would like to contribute to my project - Just make a pull request and push your changes.
 
