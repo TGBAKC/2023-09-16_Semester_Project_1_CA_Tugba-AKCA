@@ -43,7 +43,7 @@ ___
 **Getting Started**
 ___ 
 
-**Installing
+**Installing**
 
 1.Clone the repo:
 ```bash
@@ -53,7 +53,7 @@ ___
 
 npm install
 
-** Running**
+**Running**
 
 To run the app, run the following commands:
 
