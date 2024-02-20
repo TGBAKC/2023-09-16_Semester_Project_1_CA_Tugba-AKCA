@@ -4,7 +4,7 @@
 *The Community Science Museum offers an interactive journey into science for kids 7-15 and their families. Explore vibrant exhibits, engage in hands-on learning, and ignite curiosity. Visit our website for all you need to plan your adventure. Join us to inspire future scientists!*
 
 
-##DESCRIPTION
+**DESCRIPTION**
 
 Embark on a journey of discovery at the Community Science Museum, where curiosity ignites wonder and hands-on exploration awaits at every turn. Our museum, nestled in the heart of our town, offers a unique destination for young minds aged 7-15 and their families to delve into the marvels of science and technology.
 
