@@ -43,7 +43,7 @@ ___
 **Getting Started**
 ___ 
 
-***Installing***
+**Installing
 
 1.Clone the repo:
 ```bash
