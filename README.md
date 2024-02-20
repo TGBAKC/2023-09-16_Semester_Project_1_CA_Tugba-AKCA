@@ -50,8 +50,9 @@ ___
  git clone git@github.com:TGBAKC/2023-09-16_Semester_Project_1_CA_Tugba-AKCA.git
 ```
 2.Install the depencies:
-
+```bash
 npm install
+```
 
 **Running**
 
