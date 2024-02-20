@@ -1,7 +1,8 @@
 # 2023-09-16_Semester_Project_1_CA_Tugba-AKCA
 
 <img width="961" alt="Screenshot 2024-02-20 122350" src="https://github.com/TGBAKC/2023-09-16_Semester_Project_1_CA_Tugba-AKCA/assets/132302938/1f91d4fa-6187-488f-9317-c9ecdb1fd8cc">
-<strong>DESCRIPTION</strong>
+
+**DESCRIPTION**
 
 Embark on a journey of discovery at the Community Science Museum, where curiosity ignites wonder and hands-on exploration awaits at every turn. Our museum, nestled in the heart of our town, offers a unique destination for young minds aged 7-15 and their families to delve into the marvels of science and technology.
 
@@ -13,26 +14,47 @@ For families planning their visit, our website provides all the necessary inform
 
 We invite you to explore our site, learn about our mission, and plan your visit to the Community Science Museum. Join us for a day of discovery, where every question leads to a new adventure and learning about science feels like playing. Together, let's inspire the next generation of scientists, engineers, and curious minds. Welcome to where the future of science begins.
 
-<strong>SITE ARCHITECTURE:</strong>
-<hr>
+**Site architecture:**
+___
 
-.Visit
+- Visit
 
-.Exhibitions
+- Exhibitions
 
-.Explore
+- Explore
 
-.Events
+- Events
 
-.Get Involved
+- Get Involved
 
 
-<strong>BUILD WIH:</strong>
-<hr>
-.HTML
+**Build with:**
+___
 
-.CSS
+- HTML
 
-.JAVASCRIPT
+- CSS
+
+- JAVASCRIPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
