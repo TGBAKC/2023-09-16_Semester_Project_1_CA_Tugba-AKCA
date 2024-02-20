@@ -2,6 +2,9 @@
 
 <img width="961" alt="Screenshot 2024-02-20 122350" src="https://github.com/TGBAKC/2023-09-16_Semester_Project_1_CA_Tugba-AKCA/assets/132302938/1f91d4fa-6187-488f-9317-c9ecdb1fd8cc">
 
+*The Community Science Museum offers an interactive journey into science for kids 7-15 and their families. Explore vibrant exhibits, engage in hands-on learning, and ignite curiosity. Visit our website for all you need to plan your adventure. Join us to inspire future scientists!*
+
+
 **DESCRIPTION**
 
 Embark on a journey of discovery at the Community Science Museum, where curiosity ignites wonder and hands-on exploration awaits at every turn. Our museum, nestled in the heart of our town, offers a unique destination for young minds aged 7-15 and their families to delve into the marvels of science and technology.
@@ -36,3 +39,25 @@ ___
 - CSS
 
 - JAVASCRIPT
+  
+ 
+**Getting Started**
+___ 
+
+****Installing****
+
+1.Clone the repo:
+
+ git clone git@github.com:TGBAKC/2023-09-16_Semester_Project_1_CA_Tugba-AKCA.git
+
+2.Install the depencies:
+
+npm run start
+
+
+**Contributing**
+
+If you would like to contribute to my project - Just make a pull request and push your changes.
+
+
+**Contact**
