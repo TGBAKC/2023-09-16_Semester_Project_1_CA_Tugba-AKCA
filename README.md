@@ -14,7 +14,7 @@ For families planning their visit, our website provides all the necessary inform
 We invite you to explore our site, learn about our mission, and plan your visit to the Community Science Museum. Join us for a day of discovery, where every question leads to a new adventure and learning about science feels like playing. Together, let's inspire the next generation of scientists, engineers, and curious minds. Welcome to where the future of science begins.
 
 SITE ARCHITECTURE:
-
+<hr>
 .Visit
 
 .Exhibitions
@@ -24,7 +24,7 @@ SITE ARCHITECTURE:
 .Events
 
 .Get Involved
-
+<hr>
 
 Build with:
 
@@ -33,5 +33,5 @@ Build with:
 .CSS
 
 .JAVASCRIPT
-<span style="color: red;">Bu metin kırmızı olacak.</span>
+
 
