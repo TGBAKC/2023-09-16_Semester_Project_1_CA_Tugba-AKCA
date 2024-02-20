@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Community Sciences Museum</title>
+        <meta name="description" content="Explore the wonders of science and culture at the Community Sciences Museum.">
+        <meta name="keywords" content="Community Sciences Museum, science museum, culture, discovery">
+        <meta name="author" content="Community Sciences">
+        <meta name="robots" content="index, follow"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+    
+<body class="index-body">
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="#" class="logo">
+                Community Science Museum
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="visit.html" class="nav-links">Visit</a>
+                </li>
+                <li>
+                    <a href="exhibitions.html" class="nav-links">Exhibitions</a>
+                </li>
+                <li>
+                    <a href="explore.html" class="nav-links">Explore</a>
+                </li>
+                <li>
+                    <a href="Events.html" class="nav-links">Events</a>
+                </li>
+                <li>
+                    <a href="getinvolved.html" class="nav-links">Get Involved</a>
+                </li>
+            </ul>
+        </nav>
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let isMenuOpen = false;
+
+        navBarToggle.addEventListener('click', function () {
+            isMenuOpen = !isMenuOpen;
+
+            if (isMenuOpen) {
+                mainNav.classList.add('active');
+            } else {
+                mainNav.classList.remove('active');
+            }
+        });
+
+        window.addEventListener('resize', function () {
+            if (window.innerWidth >= 768) {
+                mainNav.classList.remove('active');
+            }
+        });
+    </script>
+</header>
+<main>
+    <section class="hero">
+        <img src="images/herobanner.jpg" alt="A fun experience for the whole family">
+        <div class="hero-content">
+            <h1>A fun experience for the whole family</h1>
+            <p>Visit over a thousand different exhibitions</p>
+            <a href="explore.html" class="btn">Explore</a>
+        </div>
+    </section>
+
+    <div class="index-row">
+        <div class="column1">
+            <div class="image-container">
+                <img src="images/HOMEEDUCATORS.png" alt="Education">
+                <p>The Community Sciences Museum is a hub of knowledge and exploration, dedicated to showcasing the wonders of social sciences. Located in the heart of our vibrant community, this museum serves as a bridge between academia and the public.</p>
+            </div>
+        </div>
+        <div class="column1">
+            <div class="image-container">
+                <img src="images/young-stars-club-kids-article.png" alt="curious">
+                <p>The museum offers engaging programs and workshops designed to ignite curiosity and foster a deeper understanding of the social sciences. From hands-on experiments to thought-provoking discussions, there's something for everyone to enjoy and learn from.</p>
+            </div>
+        </div>
+        <div class="column1">
+            <div class="image-container">
+                <img src="images/journey-of-discovery-kids-article.png" alt="Discovery">
+                <p>Our commitment to community engagement extends beyond the museum's physical space. We actively collaborate with schools, universities, and local organizations to promote lifelong learning and create a more informed and empathetic society.</p>
+            </div>
+        </div>
+    </div>
+    <section class="main-content">
+        <h2>About Us</h2>
+        <p>The Community Sciences Museum is a hub of knowledge and exploration, dedicated to showcasing the wonders of social sciences...</p>
+        <a href="about.html" class="About-btn">Learn More</a>
+    </section>
+
+
+  <section class="news-events">
+    <h2>OUR PERSPECTIVE</h2>
+    <div class="burning-image">
+        <img src="images/second-image.jpg" alt="Robot">
+        <p>Our commitment to community engagement extends beyond the museum's physical space. We actively collaborate with schools, universities, and local organizations to promote lifelong learning and create a more informed and empathetic society.</p>
+        <a href="event-details.html" class="learn-btn">Learn More</a>
+    </div>
+</section>
+
+    <div class="article">
+        <h2>EXPLORE TOGETHER</h2>
+        <img src="images/billetto-editorial-334686.jpg" class="researcher-img" alt="EXPLORE TOGETHER">
+        <p>Welcome to the Community Science Museum, where curiosity knows no bounds!</p>
+        <p>Discover a world of wonder and knowledge as you explore our interactive exhibits, engage in captivating experiments, and dive deep into the fascinating realm of social sciences. Whether you're a curious child, a passionate student, or an eager researcher, our museum offers a unique and enriching experience for visitors of all ages.</p>
+        <p>Embark on a journey of discovery with us today and be a part of the excitement!</p>
+        <a href="explore.html" class="explore-button">Explore More</a>
+    </div>
+</main>
+<footer>
+    <div class="footer_container">
+        <div class="logo">SCIENCES MUSEUM</div>
+        <div class="social_media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Sciences Museum© 2020 All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
