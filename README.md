@@ -1,11 +1,10 @@
-# 2023-09-16_Semester_Project_1_CA_Tugba-AKCA
-
+#Sciences Museum
 <img width="961" alt="Screenshot 2024-02-20 122350" src="https://github.com/TGBAKC/2023-09-16_Semester_Project_1_CA_Tugba-AKCA/assets/132302938/1f91d4fa-6187-488f-9317-c9ecdb1fd8cc">
 
 *The Community Science Museum offers an interactive journey into science for kids 7-15 and their families. Explore vibrant exhibits, engage in hands-on learning, and ignite curiosity. Visit our website for all you need to plan your adventure. Join us to inspire future scientists!*
 
 
-**DESCRIPTION**
+##DESCRIPTION
 
 Embark on a journey of discovery at the Community Science Museum, where curiosity ignites wonder and hands-on exploration awaits at every turn. Our museum, nestled in the heart of our town, offers a unique destination for young minds aged 7-15 and their families to delve into the marvels of science and technology.
 
@@ -17,7 +16,7 @@ For families planning their visit, our website provides all the necessary inform
 
 We invite you to explore our site, learn about our mission, and plan your visit to the Community Science Museum. Join us for a day of discovery, where every question leads to a new adventure and learning about science feels like playing. Together, let's inspire the next generation of scientists, engineers, and curious minds. Welcome to where the future of science begins.
 
-**Site architecture:**
+Site architecture:
 ___
 
 - Visit
@@ -31,7 +30,7 @@ ___
 - Get Involved
 
 
-**Build with:**
+##Build with:
 ___
 
 - HTML
@@ -41,23 +40,28 @@ ___
 - JAVASCRIPT
   
  
-**Getting Started**
+##Getting Started
 ___ 
 
-****Installing****
+###Installing
 
 1.Clone the repo:
-
+```bash
  git clone git@github.com:TGBAKC/2023-09-16_Semester_Project_1_CA_Tugba-AKCA.git
-
+```
 2.Install the depencies:
 
+npm install
+
+### Running
+
+To run the app, run the following commands:
+
+```bash
 npm run start
-
-
-**Contributing**
+```
+##Contributing
 
 If you would like to contribute to my project - Just make a pull request and push your changes.
 
-
-**Contact**
+##Contact
